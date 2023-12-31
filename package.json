@@ -1,0 +1,29 @@
+{
+  "name": "app-movie",
+  "version": "1.0.0",
+  "description": "Ini adalah submission untuk tugas \"Membuat Aplikasi Web dengan ES6, Custom Element, NPM, Module Bundler, dan AJAX\" dari Dicoding. Proyek ini menggunakan standar ES6 dalam penulisan kode JavaScript dan menerapkan minimal satu custom element. Menggunakan Webpack sebagai module bundler untuk tahap produksi, serta memanfaatkan Webpack sebagai environment dalam pengembangan proyek pada tahap pengembangan. Proyek ini juga memanfaatkan konsep AJAX untuk mendapatkan dan menampilkan data dinamis melalui API.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack serve --config webpack.dev.js",
+    "build": "webpack --config webpack.prod.js"
+  },
+  "keywords": [],
+  "author": "Muhammad Ahdan Firdaus",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.21.8",
+    "@babel/preset-env": "^7.21.5",
+    "axios": "^1.4.0",
+    "babel-loader": "^9.1.2",
+    "eslint": "^8.40.0",
+    "html-webpack-plugin": "^5.5.1",
+    "webpack": "^5.82.0",
+    "webpack-cli": "^5.1.0",
+    "webpack-dev-server": "^4.15.0"
+  },
+  "dependencies": {
+    "css-loader": "^6.7.3",
+    "style-loader": "^3.3.2",
+    "webpack-dev-middleware": "^6.1.0"
+  }
+}
