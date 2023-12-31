@@ -20,8 +20,28 @@ Public API yang dimanfaatkan dalam pengerjaan submission: [The Movie Database](h
 
 ## Scripts Menjalankan Aplikasi
 
-1. Jalankan ```npm install``` untuk menginstal semua dependensi.
-2. Jalankan ```npm run dev``` untuk membangun aplikasi dalam mode pengembangan menggunakan Webpack.
-3. Jalankan ```npm run build``` untuk membangun aplikasi dalam mode produksi menggunakan Webpack.
-4. Jalankan server lokal dengan perintah ```http-server ./dist``` atau menggunakan server lainnya.
+1. Jalankan untuk menginstal semua dependensi.
+   
+  ```bash
+  npm install
+  ```
+
+2. Jalankan untuk membangun aplikasi dalam mode pengembangan menggunakan Webpack.
+
+  ```bash
+  npm run dev
+  ```
+
+3. Jalankan untuk membangun aplikasi dalam mode produksi menggunakan Webpack.
+
+  ```bash
+  npm run build
+  ```
+
+4. Jalankan server lokal dengan perintah ini atau menggunakan server lainnya.
+
+  ```bash
+  http-server ./dist
+  ```
+
 5. Buka aplikasi web di browser dengan mengakses URL yang sesuai.
